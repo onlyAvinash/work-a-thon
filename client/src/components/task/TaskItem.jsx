@@ -3,6 +3,7 @@ import './TaskItem.css'
 import { useParams } from 'react-router-dom'
 import clsx from 'clsx'
 import {Users} from "../../dummytask"
+import ShowTime from './ShowTime'
 
 const TaskItem = () => {
   const { id } = useParams();
@@ -35,9 +36,10 @@ const TaskItem = () => {
                 </>}</p>
 
               </div>
-              <div className='buttons'>
-                <button className='p-5 mr-2 bg-blue pointer btn'>Check In</button>
-                <button className='p-5 bg-blue pointer btn'>Check Out</button>
+            <div className='buttons'>
+                <ShowTime/>
+                {/* <button className='p-5 mr-2 bg-blue pointer btn'>Check In</button>
+                <button className='p-5 bg-blue pointer btn'>Check Out</button> */}
               </div>
             </div>
 
