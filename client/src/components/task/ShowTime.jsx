@@ -41,14 +41,15 @@ import './ShowTime.css'
     }
     const [hours, minutes, seconds] = [time[0],time[1],time[2]]
     return (
-    <div className='task-tracker'>
+      <div className='task-tracker'>
+        <div className="task-traker-buttons">
         <button className="button start-button" disabled={checkInDisabled} onClick={handleStart}>
           Check In
         </button>
         <button className="button stop-button" disabled={checkOutDisabled} onClick={handleStop}>
           Checkout
         </button>
-     
+     </div>
       <p className='timer'>Timer: {hours}:{minutes}:{seconds}</p>
       {message!==null 
       ?(
