@@ -6,12 +6,7 @@ const Header = () => {
         officeLaunge
         </a>
       <div className="nav text-base" style={{ fontSize: "1.2rem", fontWeight: "bolder" }}>
-        <a href="task" className="nav-item">
-          Task
-        </a>
-        <a href="acheivements" className="nav-item">
-          Acheivements
-        </a>
+       
         <a href="user" className="nav-item">
           Profile
         </a>

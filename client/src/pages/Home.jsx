@@ -10,13 +10,7 @@ const Home = () => {
   const [activeTab, setActiveTab] = useState("today");
   return (
     <>
-    {/* <header>
-      <nav className="main-nav">
-        <a  className="logo">
-          officeLaunge
-        </a>
-      </nav>
-    </header> */}
+    
 
       <div className="sub-nav">
         
